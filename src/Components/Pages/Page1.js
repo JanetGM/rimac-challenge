@@ -13,32 +13,42 @@ const Page1 = ({info,dni,setDni,start,setStart,nameClient,setNameClient,setListA
    }
 return(
         <>
-          <p>Soy la primera página men!</p>
-            <form>
-                <div>
-                <select>
-                    <option>DNI</option>
-                </select>
-                <input type="number" required onChange={e=>setDni(e.target.value)}/>
-                </div>
-                <div>
-                    <input type="text" required placeholder="nombre" onClick={(e)=>
-                        {
-                            changeValueTextName(e,dni)
-                            setNameClient(e.target.value)
-                        }
-                    }
-                         />
-                </div>
-                <div>
-                    <p><input type="checkbox" required placeholder="nombre"  />acepto remernosdasd</p>
-                    <p><input type="checkbox" required placeholder="nombre"  />acepto remernosdasd</p>
-                </div>
-                <div>
-                    <button type="submit" ><label onClick={()=>setStart('si')}>COMENCEMOS</label></button>
-                </div>
-            </form>
-        </>
+                  <div className="main">
+                  <p>Seguro de accidentes para Niños y Jóvenes</p>
+                  <p>Seguro de accidentes para Niños y Jóvenes</p>
+                  </div>
+             
+                  <div className="figure">
+                    <p>figura</p>
+                  </div>
+                  <form className="sidebar"> 
+                    <div>
+                        <select>
+                            <option>DNI</option>
+                        </select>
+                        <input type="number" required onChange={e=>setDni(e.target.value)}/>
+                        </div>
+                        <div>
+                            <input 
+                            type="text" 
+                            required 
+                            placeholder="nombre" 
+                            onClick={(e)=> {
+                                                changeValueTextName(e,dni)
+                                                setNameClient(e.target.value)
+                                            }
+                                    }
+                            />
+                        </div>
+                        <div>
+                            <p><input type="checkbox" required placeholder="nombre"  />acepto remernosdasd</p>
+                            <p><input type="checkbox" required placeholder="nombre"  />acepto remernosdasd</p>
+                        </div>
+                        <div>
+                        <button type="submit" ><label onClick={()=>setStart('si')}>COMENCEMOS</label></button>
+                    </div>
+                 </form>
+            </>
     )
 
 }

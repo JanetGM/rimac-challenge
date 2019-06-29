@@ -1,6 +1,21 @@
 
 
 @import "./Sass/Home";
-body{
-  background: powderblue
+body {
+  margin: 0px;
+  color:#676F8F;
+  
+}
+.App{
+  margin:0px;
+  height: 100vh;
+  width: 100vh;
+  display: grid;
+  grid-template-columns:711px  30% auto auto;
+  grid-template-rows: 100% ;
+  grid-template-areas: 
+  "main main figure sidebar"
+  "main main figure sidebar"
+  "main main footer footer";
+
 }

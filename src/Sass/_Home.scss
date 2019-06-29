@@ -1,3 +1,29 @@
-body{
-    color:red ;
+
+
+
+.main{
+ 
+ margin: 0px;
+ height: 100vh;
+ background-color: #EF3340;
+ border-bottom-right-radius: 100px;
+ -webkit-transform: skew(-1.2deg); 
+ -moz-transform: skew(-1.2deg); 
+ -o-transform: skew(-1.2deg); 
+
+}
+
+.figure{
+ background-color: blue;
+} 
+
+.sidebar{
+  background-color: yellow;
+}
+
+
+
+.image-rimac {
+    width: 100px;
+    height:  100vh;
 }
