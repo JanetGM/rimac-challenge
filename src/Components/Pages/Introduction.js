@@ -22,6 +22,23 @@ const Introduction = ({
         <>
          {(start==="si")
          ?<Page2 
+                info={info}
+                dni={dni}
+                setDni={setDni}
+                start={start}
+                setStart={setStart}
+                nameClient={nameClient}
+                setNameClient={setNameClient}
+                startPage2={startPage2}
+                setStartPage2={setStartPage2}
+                listAssured={listAssured}
+                setListAssured={setListAssured}
+                optAdd={optAdd}
+                setOptAdd={setOptAdd}
+     
+            
+           />:
+          <Page1
             info={info}
             dni={dni}
             setDni={setDni}
@@ -35,23 +52,6 @@ const Introduction = ({
             setListAssured={setListAssured}
             optAdd={optAdd}
             setOptAdd={setOptAdd}
-     
-            
-           />:
-          <Page1
-          info={info}
-          dni={dni}
-          setDni={setDni}
-          start={start}
-          setStart={setStart}
-          nameClient={nameClient}
-          setNameClient={setNameClient}
-          startPage2={startPage2}
-          setStartPage2={setStartPage2}
-          listAssured={listAssured}
-          setListAssured={setListAssured}
-          optAdd={optAdd}
-          setOptAdd={setOptAdd}
           />
         
         

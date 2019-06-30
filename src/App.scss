@@ -1,6 +1,9 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
 @import "./Sass/Home";
+
+
 body {
   margin: 0px;
   color:#676F8F;
@@ -11,7 +14,8 @@ body {
   height: 100vh;
   width: 100vh;
   display: grid;
-  grid-template-columns:711px  30% auto auto;
+  margin-left:-10px;
+  grid-template-columns:711px  30%  257px auto;
   grid-template-rows: 100% ;
   grid-template-areas: 
   "main main figure sidebar"
@@ -19,3 +23,32 @@ body {
   "main main footer footer";
 
 }
+.logo-rimac{
+  position: absolute;
+  width: 99.37px;
+  height: 18px;
+  left: 143px;
+  top: 23px;
+}
+.colorRimac{
+  background-color: #EF3340;
+ }
+ 
+hr{
+  margin-top: 50px;
+  color: #EF3340;
+  @extend .colorRimac;
+}
+input[type=text], input[type=number],select,input[type=email]{
+  margin: 10px -5px 4px 1px;
+  padding: 10px;
+  border: 0px;
+  border: 1px solid #D4D5E8;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+}
+.sidebar{
+  margin-top:50%;
+}
+
+

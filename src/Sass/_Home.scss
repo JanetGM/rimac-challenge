@@ -1,8 +1,6 @@
 
-
-
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
 .main{
- 
  margin: 0px;
  height: 100vh;
  background-color: #EF3340;
@@ -14,16 +12,105 @@
 }
 
 .figure{
- background-color: blue;
+ background-color: white;
+
 } 
 
-.sidebar{
-  background-color: yellow;
+
+
+
+
+.happy-girl{
+    position: absolute;
+    width: 234.08px;
+    height: 346.03px;
+    left: 573px;
+    top: 144px;
 }
 
+.tarifa{
+    position: absolute;
+    width: 90.72px;
+    height: 90.87px;
+    left: 582.26px;
+    top: 335.02px;
 
-
-.image-rimac {
-    width: 100px;
-    height:  100vh;
 }
+
+.text-resume-assured{
+    width: 335px;
+    height: 179px;
+    margin-top:10%;
+    margin-left:24%;
+    color:#FFFFFF;
+    @extend .title;
+    } 
+
+   .title{
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    }
+
+    .subtitle{
+    font-size: 18px;
+    }
+    .icon-medicine{
+    margin-right: 10px;
+    }
+
+    .colorRimactexto{
+    color: #EF3340;
+    }
+    
+    .sidebar{
+           font-family: 'Lato', sans-serif;
+       
+           strong{ @extend .colorRimactexto;}
+
+           label{font-size:28px; margin-top:20px;}
+
+           
+             select {
+                width: 70px;
+                height: 46px;
+                padding: 8px;
+                }
+            
+            input[type=text]{
+                width: 235px;
+            }
+            input[type=number]{
+                width: 168px;
+            }
+
+            input[type=number]::-webkit-inner-spin-button, 
+            input[type=number]::-webkit-outer-spin-button { 
+                -webkit-appearance: none; 
+                margin: 0;
+            } 
+
+
+           
+
+            button{
+                border:0px;
+                background-color: #EF3340;
+                color:white;
+                border-radius: 6px;
+                width: 206px;
+                height: 56px;
+                margin-top:25px;
+            
+            }
+            .text-button{
+                font-family: 'Lato', sans-serif;
+                font-size: 14px;
+             }
+        
+            .custom-control-label{
+                font-size:12px;
+             }
+        
+
+
+ }

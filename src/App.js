@@ -15,7 +15,6 @@ function App() {
      const [startPage2,setStartPage2]=useState('no');
      const [listAssured,setListAssured]=useState([]);
      const [optAdd,setOptAdd] = useState('no');
-     
 
  // http request
 

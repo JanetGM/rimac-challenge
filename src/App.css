@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
 .main {
   margin: 0px;
   height: 100vh;
@@ -8,14 +11,72 @@
   -o-transform: skew(-1.2deg); }
 
 .figure {
-  background-color: blue; }
+  background-color: white; }
+
+.happy-girl {
+  position: absolute;
+  width: 234.08px;
+  height: 346.03px;
+  left: 573px;
+  top: 144px; }
+
+.tarifa {
+  position: absolute;
+  width: 90.72px;
+  height: 90.87px;
+  left: 582.26px;
+  top: 335.02px; }
+
+.text-resume-assured {
+  width: 335px;
+  height: 179px;
+  margin-top: 10%;
+  margin-left: 24%;
+  color: #FFFFFF; }
+
+.title, .text-resume-assured {
+  font-family: 'Lato', sans-serif;
+  font-size: 48px; }
+
+.subtitle {
+  font-size: 18px; }
+
+.icon-medicine {
+  margin-right: 10px; }
+
+.colorRimactexto, .sidebar strong {
+  color: #EF3340; }
 
 .sidebar {
-  background-color: yellow; }
-
-.image-rimac {
-  width: 100px;
-  height: 100vh; }
+  font-family: 'Lato', sans-serif; }
+  .sidebar label {
+    font-size: 28px;
+    margin-top: 20px; }
+  .sidebar select {
+    width: 70px;
+    height: 46px;
+    padding: 8px; }
+  .sidebar input[type=text] {
+    width: 235px; }
+  .sidebar input[type=number] {
+    width: 168px; }
+  .sidebar input[type=number]::-webkit-inner-spin-button,
+  .sidebar input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .sidebar button {
+    border: 0px;
+    background-color: #EF3340;
+    color: white;
+    border-radius: 6px;
+    width: 206px;
+    height: 56px;
+    margin-top: 25px; }
+  .sidebar .text-button {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px; }
+  .sidebar .custom-control-label {
+    font-size: 12px; }
 
 body {
   margin: 0px;
@@ -26,6 +87,32 @@ body {
   height: 100vh;
   width: 100vh;
   display: grid;
-  grid-template-columns: 711px  30% auto auto;
+  margin-left: -10px;
+  grid-template-columns: 711px  30%  257px auto;
   grid-template-rows: 100%;
   grid-template-areas: "main main figure sidebar" "main main figure sidebar" "main main footer footer"; }
+
+.logo-rimac {
+  position: absolute;
+  width: 99.37px;
+  height: 18px;
+  left: 143px;
+  top: 23px; }
+
+.colorRimac, hr {
+  background-color: #EF3340; }
+
+hr {
+  margin-top: 50px;
+  color: #EF3340; }
+
+input[type=text], input[type=number], select, input[type=email] {
+  margin: 10px -5px 4px 1px;
+  padding: 10px;
+  border: 0px;
+  border: 1px solid #D4D5E8;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif; }
+
+.sidebar {
+  margin-top: 50%; }

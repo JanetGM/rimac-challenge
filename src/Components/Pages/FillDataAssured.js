@@ -3,8 +3,10 @@ import React from 'react';
 const FillDataAssured = ({dni,nameClient,setStartPage2}) => {
     return (
         <>
+            <p></p>
+            <p></p>
+            <form className="sidebar">
             <p>Hola <strong>{nameClient}</strong></p>
-            <form>
                 <div>
                     <select disabled>
                         <option >DNI</option>
@@ -20,7 +22,7 @@ const FillDataAssured = ({dni,nameClient,setStartPage2}) => {
                 </div>
                 <div>
                     <button type="submit" >MODIFICAR DNI</button>
-                    <button  ><label onClick={()=>setStartPage2("si")}>CONTINUAR ></label></button>
+                    <button  ><span onClick={()=>setStartPage2("si")}>CONTINUAR ></span></button>
                 </div>
             </form>
         </>
