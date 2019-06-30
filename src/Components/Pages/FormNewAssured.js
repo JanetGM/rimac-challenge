@@ -20,6 +20,8 @@ const FormNewAssured = ({ listAssured,setListAssured,optAdd,setOptAdd,editDni}) 
                sexo:gender,
                nombres:name,
                fecNacimiento:bornDate,
+               apellidoPaterno:paterno,
+               apellidoMaterno:materno,
            }
           }
         }  

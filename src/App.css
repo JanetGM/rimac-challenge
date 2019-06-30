@@ -16,7 +16,7 @@
 .happy-girl {
   position: absolute;
   width: 234.08px;
-  height: 346.03px;
+  height: 446.03px;
   left: 573px;
   top: 144px; }
 
@@ -131,9 +131,62 @@
 
 .sidebar-assured {
   margin-top: 60%;
-  width: 250px;
-  background-color: black;
-  margin-left: -20em; }
+  width: 450px; }
+  .sidebar-assured .title-assured {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 36px;
+    line-height: 48px; }
+    .sidebar-assured .title-assured strong {
+      color: #EF3340; }
+  .sidebar-assured .subtitle-assured {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #676F8F; }
+  .sidebar-assured .item-assured {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-top-color: #EDEFF5;
+    border-bottom-color: #EDEFF5; }
+    .sidebar-assured .item-assured button {
+      border: none;
+      margin-left: 5px;
+      margin-right: 5px;
+      color: #A9B1D1;
+      background-color: white;
+      font-size: 12px; }
+    .sidebar-assured .item-assured button:hover {
+      background-color: #EF3340; }
+    .sidebar-assured .item-assured label {
+      margin-right: 40%;
+      font-size: 16px;
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 16px;
+      color: #494F66; }
+    .sidebar-assured .item-assured p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 12px;
+      color: #676F8F; }
+  .sidebar-assured .more {
+    border-radius: 50%;
+    background-color: white;
+    border-color: #939DFF;
+    border: solid 1px;
+    margin-right: 5px; }
+  .sidebar-assured .label {
+    color: #939DFF; }
 
 body {
   margin: 0px;
@@ -186,7 +239,16 @@ input[type=text], input[type=number], select, input[type=email] {
 
 .sad-girl {
   position: absolute;
-  width: 358.08px;
-  height: 496.18px;
-  left: 181px;
+  width: 307.08px;
+  height: 444.18px;
+  left: 215px;
   top: 131px; }
+
+.continue {
+  border: 0px;
+  background-color: #EF3340;
+  color: white;
+  border-radius: 6px;
+  width: 206px;
+  height: 56px;
+  margin-top: 25px; }

@@ -35,12 +35,14 @@ const ListAssured = (
                                 </div>
                                 <img className="sad-girl" src="https://github.com/JanetGM/rimac-challenge/blob/janetdev/src/img/sadGirl.png?raw=true"/>          
                                 <div className="sidebar-assured">
-                                    <div className="">
-                                      <p>Tus Asegurados</p>
-                                      <p>Preséntanos a quién vamos a proteger</p>
+                                    <div className="title-assured">
+                                      <p>Tus <strong>asegurados</strong></p>
+                                    </div>
+                                    <div className="subtitle-assured">
+                                    <p>Preséntanos a quién vamos a proteger</p>
                                     </div>
                                
-                               
+                                   <div>
                                 
                                 {
                                     (optAdd==="no")
@@ -48,20 +50,16 @@ const ListAssured = (
                                     {
                                          listAssured.map((e,i)=>(
                                             <> 
-                                               <p>Datos de aegurado N°{i+1}</p>
-                                               <div key={e.data.tercero.numDocumento}>
-                                                <p>{e.data.tercero.nombres}</p>
-                                                <p></p>
-                                                <p>{e.data.tercero.numDocumento}</p>
-                                                </div>                                             
-                                                <button onClick={()=>deleteAssured(e.data.tercero.numDocumento)}>Eliminar</button><button onClick={()=>{
-                                                   
-                                                    setDni(e.data.tercero.numDocumento);
-                                                    return setOptAdd("editar");
-                                                    }}
-                                                     >
-                                                    Editar
+                        
+                                               <div key={e.data.tercero.numDocumento} className="item-assured">
+                                                 <label><strong> {e.data.tercero.nombres}</strong> </label>                                     
+                                                  <button onClick={()=>deleteAssured(e.data.tercero.numDocumento)}>ELIMINAR</button>
+                                                  <button onClick={()=>{setDni(e.data.tercero.numDocumento); return setOptAdd("editar"); }}>
+                                                    EDITAR
                                                     </button>
+                                                    
+                                                    <p>DNI {e.data.tercero.numDocumento} - FN {e.data.tercero.fecNacimiento}</p> 
+                                                    </div> 
                                                 <br/>
                                             </>
                                          ))
@@ -96,17 +94,10 @@ const ListAssured = (
                                     
                                     :null
                                 }
-                                   
-                                   
-
-                                        )
-                                        )
-                                    
-                                         <button onClick={()=> setStartPage2("pago")}>CONTINUAR ></button>
-                                         <button onClick={()=>setOptAdd("si")}>+</button><label>Quiero asegurar a alguién más</label>
-
-
-                                         </div>
+                                 </div>
+                                   <p><button className="more" onClick={()=>setOptAdd("si")}>+</button><label className="label">Quiero asegurar a alguién más</label></p>
+                                    <button onClick={()=> setStartPage2("pago")} className="continue">CONTINUAR ></button>
+                                 </div>
                                 </>
                         )
 

@@ -1,7 +1,81 @@
 .sidebar-assured{
   
   margin-top:60%;
-  width:250px;
-  background-color:black;
-  margin-left:-20em;
+  width:450px;
+   
+  .title-assured{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 36px;
+    line-height: 48px;
+    strong{
+        color:#EF3340;
+    }
+  }
+ 
+  .subtitle-assured{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color:#676F8F;
+  }
+  .item-assured{
+  
+      border-top: solid 1px;
+      border-bottom: solid 1px;
+      padding-top: 25px;
+      padding-bottom: 10px;
+      border-top-color: #EDEFF5;
+      border-bottom-color: #EDEFF5;
+    
+    button{
+      border:none;
+      margin-left: 5px;
+      margin-right: 5px;
+      color:#A9B1D1;
+      background-color: white;
+      font-size: 12px;
+      
+    }
+
+    button:hover{
+       background-color:#EF3340; 
+    }
+
+     label{
+         margin-right: 40%;
+         font-size: 16px;
+         font-family: 'Lato';
+         font-style: normal;
+         font-weight: normal;
+         font-size: 16px;
+         line-height: 16px;
+         color:#494F66;
+     }
+     p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 12px;
+        color:#676F8F
+     }
+  }
+  .more{
+      border-radius: 50%;
+      background-color: white;
+      border-color:#939DFF;
+      border:solid 1px;
+      margin-right:5px;
+
+  }
+  .label{
+     color: #939DFF;
+  }
+
+ 
 }
+

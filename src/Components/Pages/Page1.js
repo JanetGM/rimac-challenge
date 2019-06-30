@@ -31,8 +31,7 @@ return(
              
                   <div className="figure">
                     <img className="happy-girl" src="https://github.com/JanetGM/rimac-challenge/blob/janetdev/src/img/happyGirl.png?raw=true" alt=""/>
-                    <img className ="tarifa" src="https://github.com/JanetGM/rimac-challenge/blob/janetdev/src/img/tarifa.png?raw=true" alt=""/>
-                  </div>
+                    </div>
 
                   <form className="sidebar"> 
                     <div>
