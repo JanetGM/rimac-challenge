@@ -29,8 +29,19 @@ const ListAssured = (
 
                         return(
                                 <>
-                                 <p>Tus Asegurados </p>
-                                  <p>Preséntanos a quién vamos a proteger</p>
+                                <div className="main-fi">
+                                  <img className="logo-rimac" src="https://github.com/JanetGM/rimac-challenge/blob/janetdev/src/img/rimac.png?raw=true" alt=""/>
+                                  <hr/>
+                                </div>
+                                <img className="sad-girl" src="https://github.com/JanetGM/rimac-challenge/blob/janetdev/src/img/sadGirl.png?raw=true"/>          
+                                <div className="sidebar-assured">
+                                    <div className="">
+                                      <p>Tus Asegurados</p>
+                                      <p>Preséntanos a quién vamos a proteger</p>
+                                    </div>
+                               
+                               
+                                
                                 {
                                     (optAdd==="no")
                                     ?( <>
@@ -95,7 +106,7 @@ const ListAssured = (
                                          <button onClick={()=>setOptAdd("si")}>+</button><label>Quiero asegurar a alguién más</label>
 
 
-                        
+                                         </div>
                                 </>
                         )
 

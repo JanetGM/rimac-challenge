@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
 @import "./Sass/Home";
+@import "./Sass/FillDataAssured";
+@import "./Sass/ListAssured";
 
 
 body {
@@ -52,3 +54,21 @@ input[type=text], input[type=number],select,input[type=email]{
 }
 
 
+.main-fi{
+  margin: 0px;
+  width: 418px;
+  height: 100vh;
+  background-color: #EF3340;
+  border-bottom-right-radius: 100px;
+  -webkit-transform: skew(-1.2deg); 
+  -moz-transform: skew(-1.2deg); 
+  -o-transform: skew(-1.2deg); 
+ }
+ 
+ .sad-girl{
+     position: absolute;
+     width: 358.08px;
+     height: 496.18px;
+     left: 181px;
+     top: 131px 
+ }

@@ -78,6 +78,63 @@
   .sidebar .custom-control-label {
     font-size: 12px; }
 
+.sidebar-fill-data {
+  margin-left: -20px;
+  margin-top: 60%;
+  width: 750px; }
+  .sidebar-fill-data input[type=number] {
+    width: 278px; }
+  .sidebar-fill-data select {
+    margin-top: 1px;
+    width: 102px;
+    height: 59px; }
+  .sidebar-fill-data input[type=email] {
+    width: 376px;
+    margin-bottom: 20px; }
+  .sidebar-fill-data input[type=number], .sidebar-fill-data input[type=email], .sidebar-fill-data select {
+    padding: 15px; }
+  .sidebar-fill-data span {
+    border: 0px;
+    background-color: #EDEFF5;
+    color: #D4D5E8;
+    border-radius: 6px;
+    width: 206px;
+    height: 56px;
+    padding: 15px;
+    margin-top: 5px; }
+  .sidebar-fill-data span:hover {
+    background-color: #EF3340; }
+  .sidebar-fill-data label {
+    background-color: white;
+    color: #939DFF;
+    margin-left: 110px;
+    margin-right: 40px; }
+  .sidebar-fill-data .title, .sidebar-fill-data .text-resume-assured {
+    font-family: 'Lato', normal;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 48px;
+    color: #494F66; }
+    .sidebar-fill-data .title strong, .sidebar-fill-data .text-resume-assured strong {
+      color: #EF3340; }
+  .sidebar-fill-data input[type=radio] {
+    background-color: white;
+    padding: 12px;
+    border-color: #92D66F; }
+  .sidebar-fill-data .subtitle p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px; }
+
+.sidebar-assured {
+  margin-top: 60%;
+  width: 250px;
+  background-color: black;
+  margin-left: -20em; }
+
 body {
   margin: 0px;
   color: #676F8F; }
@@ -116,3 +173,20 @@ input[type=text], input[type=number], select, input[type=email] {
 
 .sidebar {
   margin-top: 50%; }
+
+.main-fi {
+  margin: 0px;
+  width: 418px;
+  height: 100vh;
+  background-color: #EF3340;
+  border-bottom-right-radius: 100px;
+  -webkit-transform: skew(-1.2deg);
+  -moz-transform: skew(-1.2deg);
+  -o-transform: skew(-1.2deg); }
+
+.sad-girl {
+  position: absolute;
+  width: 358.08px;
+  height: 496.18px;
+  left: 181px;
+  top: 131px; }

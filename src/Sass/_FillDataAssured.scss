@@ -1,0 +1,74 @@
+
+
+.sidebar-fill-data{
+  margin-left: -20px;
+  margin-top:60%;
+  width:750px;
+
+  input[type=number]{
+   width: 278px;
+  }
+   select{
+       margin-top: 1px;
+       width:102px;
+       height: 59px;
+   }
+   input[type=email]{
+    width: 376px;
+    margin-bottom: 20px;
+   }
+   input[type=number],input[type=email],select{
+       padding: 15px;
+   }
+   span{
+    border:0px;
+    background-color: #EDEFF5;
+    color:#D4D5E8;
+    border-radius: 6px;
+    width: 206px;
+    height: 56px;
+    padding: 15px;
+    margin-top:5px;
+   }
+   span:hover{   
+    background-color: #EF3340;
+   }
+   label{
+       background-color:white;
+       color: #939DFF;
+       margin-left: 110px;
+       margin-right: 40px;
+    }
+     .title{
+        font-family: 'Lato', normal;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 48px;
+        color:#494F66;
+        strong{
+            color:#EF3340;
+        }
+   
+     }
+
+     input[type=radio]{
+         background-color: white;
+         padding: 12px;
+         border-color:#92D66F;
+     }
+  
+    .subtitle{
+        p{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+        
+           }
+        
+        
+    }
+  
+}
