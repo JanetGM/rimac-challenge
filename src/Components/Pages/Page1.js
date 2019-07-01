@@ -1,17 +1,29 @@
 import React from 'react';
 
-const Page1 = ({info,dni,setDni,start,setStart,nameClient,setNameClient,setListAssured}) => {
-      const changeValueTextName = (e,dni) => {
-      e.preventDefault();
-      const result = info.filter(e=>(e.data.tercero.numDocumento===dni));
-      setListAssured(result);
-      if(result){
-         const name= result.map(e=>e.data.tercero.nombres)
-         e.target.value=name
-         
-      }   
-   }
-return(
+const Page1 = ({
+                info,
+                dni,
+                setDni,
+                start,
+                setStart,
+                nameClient,
+                setNameClient,
+                setListAssured,
+                typePay,
+                setType,
+                desc,
+                setDesc,
+            }) => {
+                    const changeValueTextName = (e,dni) => {
+                    e.preventDefault();
+                    const result = info.filter(e=>(e.data.tercero.numDocumento===dni));
+                    setListAssured(result);
+                    if(result){
+                        const name= result.map(e=>e.data.tercero.nombres)
+                        e.target.value=name
+                  }   
+              }
+   return(
         <>
                   <div className="main"> 
                         <img className="logo-rimac" src="https://github.com/JanetGM/rimac-challenge/blob/janetdev/src/img/rimac.png?raw=true" alt=""/>

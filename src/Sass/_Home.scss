@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
 .main{
  margin: 0px;
+ width: 100vh;
  height: 100vh;
  background-color: #EF3340;
+ margin-left: none;
  border-bottom-right-radius: 100px;
  -webkit-transform: skew(-1.2deg); 
  -moz-transform: skew(-1.2deg); 
- -o-transform: skew(-1.2deg); 
+  -o-transform: skew(-1.2deg); 
 
 }
 
@@ -20,7 +22,7 @@
     position: absolute;
     width: 234.08px;
     height: 446.03px;
-    left: 573px;
+    left: 570px;
     top: 144px;
 }
 
@@ -63,7 +65,7 @@
        
            strong{ @extend .colorRimactexto;}
 
-           label{font-size:28px; margin-top:20px;}
+           label{font-size:28px; margin-top:8px;}
 
            
              select {
@@ -95,18 +97,17 @@
                 border-radius: 6px;
                 width: 206px;
                 height: 56px;
-                margin-top:25px;
+                margin-top:20px;
             
-            }
+              }
             .text-button{
                 font-family: 'Lato', sans-serif;
                 font-size: 14px;
              }
         
-            .custom-control-label{
+           
+             .custom-control-label{
                 font-size:12px;
-             }
-        
-
+              }
 
  }

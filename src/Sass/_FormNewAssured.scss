@@ -1,0 +1,39 @@
+
+.side-new-assured{
+    width: 700px;
+    input[type=number]{
+        width: 200px;
+        height: 40px;
+    }
+    input[type=text],input[type=date]{
+        width: 270px;
+        height: 41px;
+    }
+    input[type=text], input[type=number],select,input[type=email],input[type=date]{
+     
+        margin: 1px;
+
+    }
+    .btn-save-cancel{
+       margin-left:30%; 
+    }
+    select{
+        margin-top:7px;
+        height: 41px;
+    } 
+    button{
+        border:0px;
+        width: 100px;
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    button:hover{
+        background-color: #EF3340;
+        color:white;
+    }
+
+    .gender{
+     margin-top: 15px;
+    }
+}

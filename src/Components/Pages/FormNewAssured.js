@@ -9,10 +9,8 @@ const FormNewAssured = ({ listAssured,setListAssured,optAdd,setOptAdd,editDni}) 
    const [bornDate,setBornDate]=useState("");
    const [gender,setGender]=useState("");
 
-   
    const saveAssured = () => {
-      setListAssured([...listAssured,{
-          
+      setListAssured([...listAssured,{     
        tipo: "succes",
        data:{
            tercero:{
@@ -49,8 +47,10 @@ const FormNewAssured = ({ listAssured,setListAssured,optAdd,setOptAdd,editDni}) 
            )
            
            :
-        
-            <form>
+            <>
+            <div className="main-fna"></div>
+            <img className="logo-rimac" src="https://github.com/JanetGM/rimac-challenge/blob/janetdev/src/img/rimac.png?raw=true" alt=""/>            
+            <form className="side-new-assured">
                <div>
                 <select>
                     <option>DNI</option>
@@ -69,27 +69,25 @@ const FormNewAssured = ({ listAssured,setListAssured,optAdd,setOptAdd,editDni}) 
                 <div>
                     <input type="date" required placeholder="Fecha de nacimiento" onChange={e=>setBornDate(e.target.value)}/>
                 </div>
-                <div>
+                <div className="gender">
+                    <p>GÉNERO</p>
                     <p><input type="radio" required placeholder="nombre"  value="Femenino" onChange={e=>setGender(e.target.value)}/>Femenino</p>
                     <p><input type="radio" required placeholder="nombre"  value="Masculino"  onChange={e=>setGender(e.target.value)}/>Masculino</p>
                 </div>
-                <div>
+                <div className="btn-save-cancel">
                 <button type="submit" >
-                    <label onClick={
-                        ()=>setOptAdd("no")
-                    }>Cancelar</label>
+                    <label onClick={()=>setOptAdd("no")}>Cancelar</label>
                 </button>
                 <button type="submit">
-                    <label onClick={
-                        ()=>{
-                            saveAssured()
-                            setOptAdd('no')
-                        }
-                        
+                    <label onClick={()=>{
+                                          saveAssured()
+                                          setOptAdd('no')}
                         }>Guardar
-                    </label></button>
+                    </label>
+                </button>
                 </div>
             </form>
+            </>
             }
         </>
                     

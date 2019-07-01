@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import axios from 'axios';
 import Introduction from './Components/Pages/Introduction';
 import './App.css';
@@ -15,6 +16,8 @@ function App() {
      const [startPage2,setStartPage2]=useState('no');
      const [listAssured,setListAssured]=useState([]);
      const [optAdd,setOptAdd] = useState('no');
+     const [typePay,setType]=useState('ninguno');
+     const [desc,setDesc]=useState('40');
 
  // http request
 
@@ -30,6 +33,8 @@ function App() {
   return (
     
     <div className="App">
+
+        
       <Introduction
        info={info}
        dni={dni}
@@ -44,7 +49,10 @@ function App() {
        setListAssured={setListAssured}
        optAdd={optAdd}
        setOptAdd={setOptAdd}
-
+       typePay={typePay}
+       setType={setType}
+       desc={desc}
+       setDesc={setDesc}
       />
     </div>
   );

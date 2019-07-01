@@ -41,30 +41,30 @@ const ListAssured = (
                                     <div className="subtitle-assured">
                                     <p>Preséntanos a quién vamos a proteger</p>
                                     </div>
-                               
                                    <div>
                                 
                                 {
                                     (optAdd==="no")
                                     ?( <>
-                                    {
-                                         listAssured.map((e,i)=>(
-                                            <> 
-                        
-                                               <div key={e.data.tercero.numDocumento} className="item-assured">
-                                                 <label><strong> {e.data.tercero.nombres}</strong> </label>                                     
-                                                  <button onClick={()=>deleteAssured(e.data.tercero.numDocumento)}>ELIMINAR</button>
-                                                  <button onClick={()=>{setDni(e.data.tercero.numDocumento); return setOptAdd("editar"); }}>
-                                                    EDITAR
-                                                    </button>
-                                                    
-                                                    <p>DNI {e.data.tercero.numDocumento} - FN {e.data.tercero.fecNacimiento}</p> 
-                                                    </div> 
-                                                <br/>
-                                            </>
-                                         ))
-                                    }
-                
+                                        {
+                                            listAssured.map((e,i)=>(
+                                                <> 
+                            
+                                                  <div key={e.data.tercero.numDocumento} className="item-assured">
+                                                    <label><strong> {e.data.tercero.nombres}</strong> </label>                                     
+                                                      <button onClick={()=>deleteAssured(e.data.tercero.numDocumento)}>ELIMINAR</button>
+                                                      <button onClick={()=>{setDni(e.data.tercero.numDocumento); return setOptAdd("editar"); }}>
+                                                        EDITAR
+                                                        </button>
+                                                        
+                                                        <p>DNI {e.data.tercero.numDocumento} - FN {e.data.tercero.fecNacimiento}</p> 
+                                                        </div> 
+                                                    <br/>
+                                                </>
+                                            ))
+                                        }
+                                       <p><button className="more" onClick={()=>setOptAdd("si")}>+</button><label className="label">Quiero asegurar a alguién más</label></p>
+                                       <button onClick={()=> setStartPage2("pago")} className="continue">CONTINUAR ></button>
                                     </>
                                     )
                                     :(optAdd==="si")
@@ -95,9 +95,7 @@ const ListAssured = (
                                     :null
                                 }
                                  </div>
-                                   <p><button className="more" onClick={()=>setOptAdd("si")}>+</button><label className="label">Quiero asegurar a alguién más</label></p>
-                                    <button onClick={()=> setStartPage2("pago")} className="continue">CONTINUAR ></button>
-                                 </div>
+                                </div>
                                 </>
                         )
 

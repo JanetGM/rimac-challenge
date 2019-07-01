@@ -4,6 +4,9 @@
 @import "./Sass/Home";
 @import "./Sass/FillDataAssured";
 @import "./Sass/ListAssured";
+@import "./Sass/FormNewAssured";
+@import "./Sass/Pay";
+@import "./Sass/Thankyou";
 
 
 body {
@@ -17,7 +20,7 @@ body {
   width: 100vh;
   display: grid;
   margin-left:-10px;
-  grid-template-columns:711px  30%  257px auto;
+  grid-template-columns:700px  30%  257px auto;
   grid-template-rows: 100% ;
   grid-template-areas: 
   "main main figure sidebar"
@@ -41,7 +44,7 @@ hr{
   color: #EF3340;
   @extend .colorRimac;
 }
-input[type=text], input[type=number],select,input[type=email]{
+input[type=text], input[type=number],select,input[type=email],input[type=date]{
   margin: 10px -5px 4px 1px;
   padding: 10px;
   border: 0px;
@@ -82,6 +85,17 @@ input[type=text], input[type=number],select,input[type=email]{
     width: 206px;
     height: 56px;
     margin-top:25px;
-
-
  }
+
+ .custom-control-label{
+  font-size:12px;
+}
+.pay{
+  background-color: #EF3340;
+  border:none;
+  border-radius: 6px;
+  padding: 10px;
+  width: 154px;
+  color:white;
+  margin-left:42%;
+}

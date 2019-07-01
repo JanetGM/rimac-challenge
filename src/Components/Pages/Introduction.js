@@ -15,30 +15,58 @@ const Introduction = ({
     listAssured,
     setListAssured,
     optAdd,
+    typePay,
+    setType,
+    desc,
+    setDesc,
     setOptAdd}) => {
 
 
     return(
         <>
-         {(start==="si")
-         ?<Page2 
-                info={info}
-                dni={dni}
-                setDni={setDni}
-                start={start}
-                setStart={setStart}
-                nameClient={nameClient}
-                setNameClient={setNameClient}
-                startPage2={startPage2}
-                setStartPage2={setStartPage2}
-                listAssured={listAssured}
-                setListAssured={setListAssured}
-                optAdd={optAdd}
-                setOptAdd={setOptAdd}
-     
-            
-           />:
-          <Page1
+         {
+          (start==="si")
+          ?<Page2 
+                 info={info}
+                 dni={dni}
+                 setDni={setDni}
+                 start={start}
+                 setStart={setStart}
+                 nameClient={nameClient}
+                 setNameClient={setNameClient}
+                 startPage2={startPage2}
+                 setStartPage2={setStartPage2}
+                 listAssured={listAssured}
+                 setListAssured={setListAssured}
+                 optAdd={optAdd}
+                 setOptAdd={setOptAdd}
+                 typePay={typePay}
+                 setType={setType}
+                 desc={desc}
+                 setDesc={setDesc}
+      
+             
+            />:(start==="home")
+            ? <Page1
+               info={info}
+               dni={dni}
+               setDni={setDni}
+               start={start}
+               setStart={setStart}
+               nameClient={nameClient}
+               setNameClient={setNameClient}
+               startPage2={startPage2}
+               setStartPage2={setStartPage2}
+               listAssured={listAssured}
+               setListAssured={setListAssured}
+               optAdd={optAdd}
+               setOptAdd={setOptAdd}
+               typePay={typePay}
+               setType={setType}
+               desc={desc}
+               setDesc={setDesc}
+             />:(start==="si")
+          ?<Page1
             info={info}
             dni={dni}
             setDni={setDni}
@@ -52,8 +80,29 @@ const Introduction = ({
             setListAssured={setListAssured}
             optAdd={optAdd}
             setOptAdd={setOptAdd}
-          />
-        
+            typePay={typePay}
+            setType={setType}
+            desc={desc}
+            setDesc={setDesc}
+          />:<Page1
+          info={info}
+          dni={dni}
+          setDni={setDni}
+          start={start}
+          setStart={setStart}
+          nameClient={nameClient}
+          setNameClient={setNameClient}
+          startPage2={startPage2}
+          setStartPage2={setStartPage2}
+          listAssured={listAssured}
+          setListAssured={setListAssured}
+          optAdd={optAdd}
+          setOptAdd={setOptAdd}
+          typePay={typePay}
+          setType={setType}
+          desc={desc}
+          setDesc={setDesc}
+        />
         
         }
     

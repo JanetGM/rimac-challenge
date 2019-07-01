@@ -1,0 +1,50 @@
+.happy-girl-finale{
+    position: absolute;
+    width: 281.26px;
+    height: 465.07px;
+    left: 202px;
+    top: 127.65px;
+}
+.sidebar-thank-you{
+    width: 474px; 
+    margin-top: 50%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.8px;
+    strong{
+        color:#EF3340;
+    }
+    label{
+     padding: -10px;
+    }
+    
+    .title-page-thank-you{
+        font-size: 36px;
+        p{
+            font-size: 18px; 
+        }
+    }
+
+    .rectangle-rimac-app{
+        width: 474px;
+        height: 136px;
+        display: grid;
+        padding: 10px;
+        background: #FFFFFF;
+        border: 3px solid #F7F7FA;
+        box-sizing: border-box;
+        border-radius: 12px;
+        grid-template-columns:300px 30%  257px auto;
+        grid-template-rows: 100% ;
+        grid-template-areas: 
+        "main main figure sidebar"
+        "main main figure sidebar"
+        "main main footer footer";
+    }
+    .pay{
+        margin-top:10%;
+        margin-left: 0px;
+    }
+
+}

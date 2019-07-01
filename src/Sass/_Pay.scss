@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+
+.sidebar-pay {
+    width: 500px;
+    margin-top: 5%;
+    .pay-tarifa{
+        display: inline-block;
+        width: 110px;
+        height: 95px;
+        background: #FFFFFF;
+        border: 3px solid #F7F7FA;
+        box-sizing: border-box;
+        border-radius: 12px;
+        padding: 15px;
+        margin: 0px;
+        margin-right: 3%;
+        
+      .p1{
+        font-size: 8px;
+        margin:0px;
+        color:#939DFF;
+
+      }
+      .label2{
+        font-size: 25px;
+        color:rgb(36, 37, 39);
+        font-weight: 400;
+
+      }
+      .p3{
+        font-size: 10px;
+      }
+      small{
+        margin-top: 1px;
+        font-size: 12px;
+        margin-right: 1px;
+
+      }
+
+    }
+   
+    
+}
+.pay-tarifa:hover{
+    background: #FFFFFF;
+    border: 1px solid #92D66F;
+    border-radius: 12px;
+}
+
+
+
+.title-pay{
+    p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 0px;
+    }
+    strong{
+        color:#EF3340;
+    }
+    
+    label{
+        margin-bottom:20px;
+        border-bottom: 1px solid  #EDEFF5;
+        padding-bottom:18px;
+        padding-top: 18px;
+        padding-right: 0px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 16px;
+    }
+  
+}
+
+.resume-assured{
+    p{
+        font-size: 14px;
+        font-family: 'Roboto';
+        margin-top: 10px;
+        margin-bottom: 5px;
+       
+    }
+    strong{
+        color:#939DFF;
+        font-size: 12px;
+        letter-spacing: 0.2px;
+
+    }
+    .price{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 30%;
+        color: #494F66;
+    }
+}
+.form-pago{
+    .large-input-text{
+        width: 350px;
+    }
+
+    .desc{
+        font-family: 'Lato';
+        font-style: normal;
+        position: absolute;
+        width: 85px;
+        height: 36px;
+        left: 65.8%;
+        top: 43.5%;
+        background: #EF3340;
+        border-radius: 4px;
+        border:none;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 0.8px;
+
+    }
+    input[type=text],input[type=email],input[type=number],input[type=date]{
+      font-size: 16px;
+      color:#A9B1D1;
+    }
+    input[type=text],input[type=email]{
+        padding: 10px;
+        margin: 0px;
+        border-radius: 1px;
+        margin-top: -1px;
+        font-family: 'Lato';
+    }
+    input[type=number],input[type=date]{
+      border-radius: 0px;
+      margin-top: -2px;
+      margin-bottom: -2px;
+        
+    }
+  
+    input[type=number]{
+        width: 162px;
+        height: 47px;
+        border-left: solid 1px;
+    }
+    .custom-control{
+     margin-top:5px;
+     width: 380px;
+    }
+  
+}

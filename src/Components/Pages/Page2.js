@@ -18,7 +18,11 @@ const Page2 = (
      listAssured,
      setListAssured,
      optAdd,
-     setOptAdd
+     setOptAdd,
+     typePay,
+     setType,
+     desc,
+     setDesc,
     }) => {
 return(
         <>
@@ -38,6 +42,10 @@ return(
                 setListAssured={setListAssured}
                 optAdd={optAdd}
                 setOptAdd={setOptAdd}
+                typePay={typePay}
+                setType={setType}
+                desc={desc}
+                setDesc={setDesc}
             
             />)
             :(startPage2==="si")
@@ -55,6 +63,10 @@ return(
                 setListAssured={setListAssured}
                 optAdd={optAdd}
                 setOptAdd={setOptAdd}
+                typePay={typePay}
+                setType={setType}
+                desc={desc}
+                setDesc={setDesc}
             
               />
             :
@@ -72,6 +84,10 @@ return(
                     setStartPage2={setStartPage2}
                     listAssured={listAssured}
                     setListAssured={setListAssured}
+                    typePay={typePay}
+                    setType={setType}
+                    desc={desc}
+                    setDesc={setDesc}
 
 
                 />

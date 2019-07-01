@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FillDataAssured = ({dni,nameClient,setStartPage2}) => {
+const FillDataAssured = ({dni,nameClient,setStartPage2,start}) => {
     return (
         <>
             <div className="main-fi">

@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100&display=swap");
 .main {
   margin: 0px;
+  width: 100vh;
   height: 100vh;
   background-color: #EF3340;
+  margin-left: none;
   border-bottom-right-radius: 100px;
   -webkit-transform: skew(-1.2deg);
   -moz-transform: skew(-1.2deg);
@@ -17,7 +21,7 @@
   position: absolute;
   width: 234.08px;
   height: 446.03px;
-  left: 573px;
+  left: 570px;
   top: 144px; }
 
 .tarifa {
@@ -51,7 +55,7 @@
   font-family: 'Lato', sans-serif; }
   .sidebar label {
     font-size: 28px;
-    margin-top: 20px; }
+    margin-top: 8px; }
   .sidebar select {
     width: 70px;
     height: 46px;
@@ -71,7 +75,7 @@
     border-radius: 6px;
     width: 206px;
     height: 56px;
-    margin-top: 25px; }
+    margin-top: 20px; }
   .sidebar .text-button {
     font-family: 'Lato', sans-serif;
     font-size: 14px; }
@@ -188,6 +192,192 @@
   .sidebar-assured .label {
     color: #939DFF; }
 
+.side-new-assured {
+  width: 700px; }
+  .side-new-assured input[type=number] {
+    width: 200px;
+    height: 40px; }
+  .side-new-assured input[type=text], .side-new-assured input[type=date] {
+    width: 270px;
+    height: 41px; }
+  .side-new-assured input[type=text], .side-new-assured input[type=number], .side-new-assured select, .side-new-assured input[type=email], .side-new-assured input[type=date] {
+    margin: 1px; }
+  .side-new-assured .btn-save-cancel {
+    margin-left: 30%; }
+  .side-new-assured select {
+    margin-top: 7px;
+    height: 41px; }
+  .side-new-assured button {
+    border: 0px;
+    width: 100px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px; }
+  .side-new-assured button:hover {
+    background-color: #EF3340;
+    color: white; }
+  .side-new-assured .gender {
+    margin-top: 15px; }
+
+.sidebar-pay {
+  width: 500px;
+  margin-top: 5%; }
+  .sidebar-pay .pay-tarifa {
+    display: inline-block;
+    width: 110px;
+    height: 95px;
+    background: #FFFFFF;
+    border: 3px solid #F7F7FA;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 0px;
+    margin-right: 3%; }
+    .sidebar-pay .pay-tarifa .p1 {
+      font-size: 8px;
+      margin: 0px;
+      color: #939DFF; }
+    .sidebar-pay .pay-tarifa .label2 {
+      font-size: 25px;
+      color: #242527;
+      font-weight: 400; }
+    .sidebar-pay .pay-tarifa .p3 {
+      font-size: 10px; }
+    .sidebar-pay .pay-tarifa small {
+      margin-top: 1px;
+      font-size: 12px;
+      margin-right: 1px; }
+
+.pay-tarifa:hover {
+  background: #FFFFFF;
+  border: 1px solid #92D66F;
+  border-radius: 12px; }
+
+.title-pay p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 0px; }
+
+.title-pay strong {
+  color: #EF3340; }
+
+.title-pay label {
+  margin-bottom: 20px;
+  border-bottom: 1px solid  #EDEFF5;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  padding-right: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 16px; }
+
+.resume-assured p {
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+.resume-assured strong {
+  color: #939DFF;
+  font-size: 12px;
+  letter-spacing: 0.2px; }
+
+.resume-assured .price {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 30%;
+  color: #494F66; }
+
+.form-pago .large-input-text {
+  width: 350px; }
+
+.form-pago .desc {
+  font-family: 'Lato';
+  font-style: normal;
+  position: absolute;
+  width: 85px;
+  height: 36px;
+  left: 65.8%;
+  top: 43.5%;
+  background: #EF3340;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.8px; }
+
+.form-pago input[type=text], .form-pago input[type=email], .form-pago input[type=number], .form-pago input[type=date] {
+  font-size: 16px;
+  color: #A9B1D1; }
+
+.form-pago input[type=text], .form-pago input[type=email] {
+  padding: 10px;
+  margin: 0px;
+  border-radius: 1px;
+  margin-top: -1px;
+  font-family: 'Lato'; }
+
+.form-pago input[type=number], .form-pago input[type=date] {
+  border-radius: 0px;
+  margin-top: -2px;
+  margin-bottom: -2px; }
+
+.form-pago input[type=number] {
+  width: 162px;
+  height: 47px;
+  border-left: solid 1px; }
+
+.form-pago .custom-control {
+  margin-top: 5px;
+  width: 380px; }
+
+.happy-girl-finale {
+  position: absolute;
+  width: 281.26px;
+  height: 465.07px;
+  left: 202px;
+  top: 127.65px; }
+
+.sidebar-thank-you {
+  width: 474px;
+  margin-top: 50%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.8px; }
+  .sidebar-thank-you strong {
+    color: #EF3340; }
+  .sidebar-thank-you label {
+    padding: -10px; }
+  .sidebar-thank-you .title-page-thank-you {
+    font-size: 36px; }
+    .sidebar-thank-you .title-page-thank-you p {
+      font-size: 18px; }
+  .sidebar-thank-you .rectangle-rimac-app {
+    width: 474px;
+    height: 136px;
+    display: grid;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 3px solid #F7F7FA;
+    box-sizing: border-box;
+    border-radius: 12px;
+    grid-template-columns: 300px 30%  257px auto;
+    grid-template-rows: 100%;
+    grid-template-areas: "main main figure sidebar" "main main figure sidebar" "main main footer footer"; }
+  .sidebar-thank-you .pay {
+    margin-top: 10%;
+    margin-left: 0px; }
+
 body {
   margin: 0px;
   color: #676F8F; }
@@ -198,7 +388,7 @@ body {
   width: 100vh;
   display: grid;
   margin-left: -10px;
-  grid-template-columns: 711px  30%  257px auto;
+  grid-template-columns: 700px  30%  257px auto;
   grid-template-rows: 100%;
   grid-template-areas: "main main figure sidebar" "main main figure sidebar" "main main footer footer"; }
 
@@ -216,7 +406,7 @@ hr {
   margin-top: 50px;
   color: #EF3340; }
 
-input[type=text], input[type=number], select, input[type=email] {
+input[type=text], input[type=number], select, input[type=email], input[type=date] {
   margin: 10px -5px 4px 1px;
   padding: 10px;
   border: 0px;
@@ -252,3 +442,15 @@ input[type=text], input[type=number], select, input[type=email] {
   width: 206px;
   height: 56px;
   margin-top: 25px; }
+
+.custom-control-label {
+  font-size: 12px; }
+
+.pay {
+  background-color: #EF3340;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  width: 154px;
+  color: white;
+  margin-left: 42%; }
