@@ -101,7 +101,7 @@ const Pay = ({info,
                               <label className="custom-control-label" htmlFor="customCheck2">Acepto las políticas de envío de la póliza electrónica.</label>
                           </div>            
                         </div>
-                        <button className="pay" onClick={()=> setOptAdd("pagado")}> Pagar S/{desc} </button>
+                        <button type="submit"><label className="pay" onClick={()=> setOptAdd("pagado")}> Pagar S/{desc} </label></button>
                      </div>
 
 
