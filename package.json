@@ -16,7 +16,7 @@
     "dev": "react-scripts start",
     "start-js": "react-scripts start",
     "start": " serve -s build ",
-    "build": "npm-run-all -p watch-css start-js && npm run build-css && react-scripts build",
+    "build": "npm run build-css && react-scripts build",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "eject": "react-scripts eject",
