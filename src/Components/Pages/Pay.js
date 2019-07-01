@@ -18,6 +18,8 @@ const Pay = ({info,
   setType,
   desc,
   setDesc,
+  email,
+  setEmail
  }) => {
 
     const [codPromo,setCodPromo] = useState("");
@@ -48,6 +50,8 @@ const Pay = ({info,
                            setType={setType}
                            desc={desc}
                            setDesc={setDesc}
+                           email={email}
+                           setEmail={setEmail}
                           />
                        </>
                        )

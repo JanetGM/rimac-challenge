@@ -23,6 +23,8 @@ const Page2 = (
      setType,
      desc,
      setDesc,
+     email,
+     setEmail
     }) => {
 return(
         <>
@@ -46,6 +48,8 @@ return(
                 setType={setType}
                 desc={desc}
                 setDesc={setDesc}
+                email={email}
+                setEmail={setEmail}
             
             />)
             :(startPage2==="si")
@@ -67,6 +71,8 @@ return(
                 setType={setType}
                 desc={desc}
                 setDesc={setDesc}
+                email={email}
+                setEmail={setEmail}
             
               />
             :
@@ -88,6 +94,8 @@ return(
                     setType={setType}
                     desc={desc}
                     setDesc={setDesc}
+                    email={email}
+                    setEmail={setEmail}
 
 
                 />

@@ -17,6 +17,7 @@ function App() {
      const [optAdd,setOptAdd] = useState('no');
      const [typePay,setType]=useState('ninguno');
      const [desc,setDesc]=useState('40');
+     const [email,setEmail]=useState('');
 
  // http request
 
@@ -52,6 +53,8 @@ function App() {
        setType={setType}
        desc={desc}
        setDesc={setDesc}
+       email={email}
+       setEmail={setEmail}
       />
     </div>
   );

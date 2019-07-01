@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FillDataAssured = ({dni,nameClient,setStartPage2,start}) => {
+const FillDataAssured = ({dni,nameClient,setStartPage2,start,setEmail}) => {
     return (
         <>
             <div className="main-fi">
@@ -24,7 +24,7 @@ const FillDataAssured = ({dni,nameClient,setStartPage2,start}) => {
                     <input type="number"  value={dni} required disabled id="dni"/>
                 </div>
                 <div>
-                    <input type="email" required placeholder="Correo" />
+                    <input type="email" required placeholder="Correo" onChange={(e)=>setEmail(e.target.value)}/>
                 </div>
                     <p><strong>¿ESTE SEGURO ES PARA TI?</strong></p>
                     <input type="radio" name="gender" value="si"/> Sí<br/>
@@ -32,7 +32,7 @@ const FillDataAssured = ({dni,nameClient,setStartPage2,start}) => {
 
                 <div>
                     <label >Modificar DNI</label>
-                    <button type="submit"><span onClick={()=>setStartPage2("si")}> CONTINUAR ></span></button>
+                    <button class="span"type="submit"><span onClick={()=>setStartPage2("si")}> CONTINUAR ></span></button>
                 </div>
             </form>
         </>

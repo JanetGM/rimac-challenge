@@ -16,7 +16,9 @@ const ListAssured = (
                         listAssured,
                         setListAssured,
                         optAdd,
-                        setOptAdd
+                        setOptAdd,
+                        email,
+                        setEmail
                     }) => {
 
 

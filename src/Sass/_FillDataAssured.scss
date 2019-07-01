@@ -20,7 +20,7 @@
    input[type=number],input[type=email],select{
        padding: 15px;
    }
-   span{
+   .span{
     border:0px;
     background-color: #EDEFF5;
     color:#D4D5E8;
@@ -30,7 +30,7 @@
     padding: 15px;
     margin-top:5px;
    }
-   span:hover{   
+   .span:hover{   
     background-color: #EF3340;
    }
    label{

@@ -12,7 +12,8 @@ const Thankyou = ({info,
   listAssured,
   setListAssured,
   optAdd,
-  setOptAdd
+  setOptAdd,
+  email
  }) => {
     return (
              <>
@@ -22,7 +23,7 @@ const Thankyou = ({info,
                  <div className="title-page-thank-you">  
                     <strong>¡Felicidades!</strong>
                     <label>Tus seres queridos ahora se encuentran protegidos</label>
-                    <p>Descarga tu póliza llegará que en un máximo de 24 horas al correo <strong>eva.pinedo@rimac.com.pe</strong></p>
+                    <p>Descarga tu póliza llegará que en un máximo de 24 horas al correo <strong>{email}</strong></p>
                     <p>Conoce más sobre tu seguro</p>              
                  </div>
                <div className="rectangle-rimac-app">
