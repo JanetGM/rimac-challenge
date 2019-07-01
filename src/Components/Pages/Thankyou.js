@@ -32,7 +32,7 @@ const Thankyou = ({info,
                   </div>
                     <img src="https://github.com/JanetGM/rimac-challenge/blob/janetdev/src/img/boyRimac.png?raw=true" alt=""/>
                   </div >
-               <button className="pay" >IR AL HOME > </button>
+               <button className="pay" onClick={()=>window.location.reload()}>IR AL HOME > </button>
                </div>
   
              </>
