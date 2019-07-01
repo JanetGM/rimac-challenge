@@ -19,6 +19,8 @@ const Introduction = ({
     setType,
     desc,
     setDesc,
+    email,
+    setEmail,
     setOptAdd}) => {
 
 
@@ -44,6 +46,8 @@ const Introduction = ({
                  setType={setType}
                  desc={desc}
                  setDesc={setDesc}
+                 email={email}
+                 setEmail={setEmail}
       
              />
             :<Page1
@@ -64,6 +68,8 @@ const Introduction = ({
             setType={setType}
             desc={desc}
             setDesc={setDesc}
+            email={email}
+            setEmail={setEmail}
           />
         }
     

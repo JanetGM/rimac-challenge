@@ -16,9 +16,7 @@ const ListAssured = (
                         listAssured,
                         setListAssured,
                         optAdd,
-                        setOptAdd,
-                        email,
-                        setEmail
+                        setOptAdd
                     }) => {
 
 
@@ -65,8 +63,8 @@ const ListAssured = (
                                                 </>
                                             ))
                                         }
-                                       <p><button type ="submit" ><label className="more" onClick={()=>setOptAdd("si")}>+</label></button>/label><label className="label">Quiero asegurar a alguién más</label></p>
-                                       <button type="submit"><label onClick={()=> setStartPage2("pago")} className="continue">CONTINUAR ></label></button>
+                                       <p><button className="more" onClick={()=>setOptAdd("si")}>+</button><label className="label">Quiero asegurar a alguién más</label></p>
+                                       <button onClick={()=> setStartPage2("pago")} className="continue">CONTINUAR ></button>
                                     </>
                                     )
                                     :(optAdd==="si")

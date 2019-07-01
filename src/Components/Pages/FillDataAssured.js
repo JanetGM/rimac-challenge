@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FillDataAssured = ({dni,nameClient,setStartPage2,start,setEmail}) => {
+const FillDataAssured = ({dni,nameClient,setStartPage2,start,setEmail,email}) => {
     return (
         <>
             <div className="main-fi">
@@ -32,7 +32,7 @@ const FillDataAssured = ({dni,nameClient,setStartPage2,start,setEmail}) => {
 
                 <div>
                     <label >Modificar DNI</label>
-                    <button class="span"type="submit"><span onClick={()=>setStartPage2("si")}> CONTINUAR ></span></button>
+                    <button class="span"type="submit" onClick={()=>setStartPage2("si")}> CONTINUAR ></button>
                 </div>
             </form>
         </>

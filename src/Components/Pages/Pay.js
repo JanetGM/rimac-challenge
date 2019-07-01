@@ -18,8 +18,6 @@ const Pay = ({info,
   setType,
   desc,
   setDesc,
-  email,
-  setEmail
  }) => {
 
     const [codPromo,setCodPromo] = useState("");
@@ -50,8 +48,6 @@ const Pay = ({info,
                            setType={setType}
                            desc={desc}
                            setDesc={setDesc}
-                           email={email}
-                           setEmail={setEmail}
                           />
                        </>
                        )
@@ -105,7 +101,7 @@ const Pay = ({info,
                               <label className="custom-control-label" htmlFor="customCheck2">Acepto las políticas de envío de la póliza electrónica.</label>
                           </div>            
                         </div>
-                        <button type="submit"><label className="pay" onClick={()=> setOptAdd("pagado")}> Pagar S/{desc} </label></button>
+                        <label className="pay" onClick={()=> setOptAdd("pagado")}> Pagar S/{desc} </label>
                      </div>
 
 
