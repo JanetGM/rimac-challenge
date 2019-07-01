@@ -12,10 +12,11 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "dev": "react-scripts start",
     "start-js": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "npm-run-all -p watch-css start-js",
+    "start": " serve -s build npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
