@@ -32,7 +32,7 @@ const FillDataAssured = ({dni,nameClient,setStartPage2,start,setEmail,email}) =>
 
                 <div>
                     <label >Modificar DNI</label>
-                    <button class="span"type="submit" onClick={()=>setStartPage2("si")}> CONTINUAR ></button>
+                    <span class="span"type="submit" onClick={()=>setStartPage2("si")}> CONTINUAR ></span>
                 </div>
             </form>
         </>
